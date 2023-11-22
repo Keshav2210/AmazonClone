@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+
+.navbar{
+    height:60px;
+    background-color: black;
+    color:white;
+}
+
+.nav-logo {
+    height:50px;
+    width: 100px;
+    display: flex;
+}
+
+.logo{
+    height:68px;
+    background-image:url("amazon_logo.png");
+    /* Div will only be visible when it is given a specific height */
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+
+.border{
+    border:2px solid transparent; 
+}
+
+.border:hover{
+    border : 1.5 px solid transparent;
+}
+
+/* Styling for box two */
+
+.add-fir{
+    color: #cccccc;
+    font-size: 0.05rem;
+    margin:15px;
+} 
+
+.add-sec{
+    font-size: 1rem;
+}
+
+.add-icon{
+    display:flex ;
+    align-items:center;
+}
